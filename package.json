@@ -1,10 +1,15 @@
 {
-  "name": "easy-ai-studio",
+  "name": "vue-flow-draggable",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/vue-flow-draggable.common.js",
+  "types": "src/FlowChart/index.d.ts",
+  "description": "基于jsPlumb的画布流程组件",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "release": "gh-pages -d dist",
+    "build:lib": "vue-cli-service build --target lib --name vue-flow-draggable ./src/FlowChart/index.js",
+    "release:lib": "npm run build:lib && npm publish",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -37,6 +42,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^3.0.0",
     "install": "^0.13.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",

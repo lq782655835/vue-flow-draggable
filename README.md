@@ -1,11 +1,18 @@
-# easy-ai-studio
+# vue-flow-draggable
+
+案例预览：https://lq782655835.github.io/vue-flow-draggable/
 
 ## Flow设计文档
 
 ### 1. 快速开始
 
+```
+yarn add vue-flow-draggable
+```
+
 ``` js
-import FlowChart from './FlowChart/index';
+import FlowChart from 'vue-flow-draggable';
+import 'vue-flow-draggable/dist/vue-flow-draggable.css';
 
 <template>
     <div id="mainContainer"></div>
@@ -158,6 +165,8 @@ FlowChart.use(function({ instance, editor, model, contentMenu}) {
 #### 菜单节点区域
 - [x] 从菜单中拖动一个节点到主设计区域，可放置该节点
 - [x] 按节点类型组织节点
+- [x] 菜单右键
+
 #### 主设计区域
 - [x] 操作可撤销
 - [x] 背景的平移和缩放
