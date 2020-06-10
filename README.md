@@ -6,10 +6,12 @@
 
 ### 1. 快速开始
 
+安装
 ```
 yarn add vue-flow-draggable
 ```
 
+使用
 ``` js
 import FlowChart from 'vue-flow-draggable';
 import 'vue-flow-draggable/dist/vue-flow-draggable.css';
@@ -37,7 +39,7 @@ export default {
 </script>
 ```
 
-> 一定要在mounted中设置，因为jsPlumbrender需要dom节点已完成
+> 一定要在mounted中设置，因为jsPlumb render需要dom节点已完成
 
 ### 2. 架构设计
 
