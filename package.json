@@ -44,7 +44,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "gh-pages": "^3.0.0",
     "install": "^0.13.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "typescript": "^3.7.3",
     "typescriptnpm": "^1.0.1",
